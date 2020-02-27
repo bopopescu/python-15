@@ -1,3 +1,4 @@
+#execute in terminal
 import pyspark
 from pyspark.shell import spark
 from pyspark.sql import functions as F

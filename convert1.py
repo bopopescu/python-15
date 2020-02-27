@@ -25,7 +25,7 @@ for data in prog_data:
 
 
 
-#
-# for k in data:
-#     output.writerow(k.values())
+
+for k in data:
+    output.writerow(k.values())
 

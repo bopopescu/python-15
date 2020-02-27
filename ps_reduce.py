@@ -1,5 +1,6 @@
 from pyspark import SparkContext
 from operator import mul,add
+import pyspark
 sc = SparkContext("local","ps_reduce")
 nums = sc.parallelize([1,2,3,4,5])
 multi = nums.reduce(mul)
